@@ -78,4 +78,6 @@ const resetGame = () => {
     GUESS_LIST = [];
     document.getElementById("guess-list").innerHTML = "";
     document.getElementById('user-guess').value = "";
+    document.getElementById('check-button').disabled = false;
+    document.getElementById('check-button').style = "";
 }
