@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background: black;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+    height: 100%;
+    color: white;
+}
+
+main{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+h2{
+    color: rgb(221, 255, 0);
+    margin: 1rem auto;
+}
+
+input{
+    border: 2px solid grey;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem auto;
+    width: 75%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    width: 30%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all ease-in-out 0.15s;
+}
+
+button:hover{
+    color: black;
+    background: white;
+}
+
+#guess-comment, #guess-list{
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.5rem;
+    width: 85%;
+    margin: 1rem auto;
+}
+
+#guess-list{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    overflow-y: scroll;
+    height: auto;
+    max-height: 210px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+li{
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
