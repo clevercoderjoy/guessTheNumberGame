@@ -71,8 +71,8 @@ const resetGame = () => {
     document.getElementById("guess-comment").setAttribute("style", "");
     GUESS_LIST = [];
     document.getElementById("guess-list").innerHTML = "";
-    document.getElementById("user-guess").value = "";
+    document.getElementById("user-guess").setAttribute("value", "");
     document.getElementById("check-button").disabled =
         false;
-    document.getElementById("check-button").style = "";
+    document.getElementById("check-button").setAttribute("style", "");
 };
